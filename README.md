@@ -15,7 +15,7 @@ Fusatrack es una aplicación móvil híbrida para **visualizar rutas de transpor
 
 ## 🛠 Tecnologías
 
-- **Frontend:** React Native  
+- **Frontend:** Flutter  
 - **Backend:** Django REST Framework  
 - **Base de datos:** PostgreSQL + PostGIS  
 - **Almacenamiento local (offline):** SQLite/Realm  
