@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'api',
+    'routes',
 ]
 
 MIDDLEWARE = [
@@ -58,10 +59,11 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'fusatrack_backend.urls'
 
-CORS_ALLOW_ALL_ORIGINS = True
+#CORS_ALLOW_ALL_ORIGINS = True
+ALLOWED_HOSTS = ['*']
 
 #CORS_ALLOWED_ORIGINS = [
- #    "http://localhost:3000",
+#     "http://10.0.2.2:8000",
   #  "https://fusatrack.com",
 #]
 
