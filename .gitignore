@@ -1,0 +1,40 @@
+# ====== BACKEND: Django / Python ======
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+db.sqlite3
+*.env
+.env
+media/
+staticfiles/
+
+# Entorno virtual
+venv/
+fusatrack_backend/venv/
+
+# IDEs / Editores
+.idea/
+.vscode/
+*.iml
+
+# ====== FLUTTER FRONTEND (ya tienes otro, pero por si acaso) ======
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+*.lock
+
+# iOS / Android
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+android/.gradle/
+android/app/build/
+
+# ====== Otros ======
+*.DS_Store
